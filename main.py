@@ -41,12 +41,12 @@ def distribution():
 def answer():
     param = {
         'title': 'Автоматический ответ',
-        'surname': 'Twen',
-        'name': 'Mark',
+        'surname': 'Joe',
+        'name': 'Biden',
         'education': 'middle',
         'profession': 'doctor',
         'sex': 'male',
-        'motivation': 'popularity',
+        'motivation': 'money',
         'ready': 'True',
     }
     return render_template('auto_answer.html', **param)
